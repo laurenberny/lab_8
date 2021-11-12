@@ -1,0 +1,40 @@
+---
+title: "lab_8"
+author: "Lauren Berny, Adriana Conn, Mavis Gallo, Aubrey Green, & Sean McWeenie"
+date: "11/11/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.height= 8, fig.width= 6.5)
+
+library(tidyverse)
+library(janitor)
+library(here)
+library(rio)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r commit_1}
+star <- import(here("data", "star.csv"),
+  setclass = "tbl_df") %>%
+  clean_names()
+```
+
+
+```{r commit_2}
+
+```
+
+
+```{r commit_3}
+
+```
+
+
+```{r commit_4}
+
+```
+
