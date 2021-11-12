@@ -1,6 +1,6 @@
 ---
 title: "lab_8"
-author: "Lauren Berny, Adriana Conn, Mavis Gallo, Aubrey Green, & Sean McWeenie"
+author: "Lauren Berny, Adriana Conn, Mavis Gallo, Aubrey Green, & Shawn McWeenie"
 date: "11/11/2021"
 output: pdf_document
 ---
