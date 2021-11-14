@@ -14,6 +14,7 @@ library(here)
 library(rio)
 library(dplyr)
 library(ggplot2)
+library(kableExtra)
 ```
 
 
@@ -30,9 +31,15 @@ star <- import(here("data", "star.csv"),
 
 
 ```{r commit_3}
-
+star %>%
+ group_by(sex, frl) %>%
+ summarize(math_mean = mean(tmathss), math_sd = sd(tmathss), rdg_mean = mean(treadss), rdg_sd = sd(treadss)) %>%
+ kable(digits = 2,
+       booktabs = TRUE) %>%
+ kable_styling()
+            
 ```
-
+The table above shows that both boys and girls who received free/reduced lunch tended to score lower on average in math and reading scores compared to boys and girls who did not receive free/reduced lunch.
 
 ```{r commit_4}
 
