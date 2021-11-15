@@ -27,9 +27,11 @@ star <- import(here("data", "star.csv"),
 ```
 
 
-```{r commit_2}
+Commit 2
 
-```
+For this lab, we used several packages including @tidyversebib, @janitorbib, @herebib, @riobib, @dplyrbib, @kableExtrabib, and @tinytexbib.
+
+These packages were made possible by the _incredible_ folks such as Hadley Wickham [2016] and [Chung-hong Chan, 2021]. 
 
 
 ```{r commit_3}
@@ -55,6 +57,7 @@ p + theme(legend.position = "bottom")
 ```
 
 The graph above shows teacher experience does not explain the difference in math scores and lunch status. 
+
 \newpage
 
-#References
+# References
